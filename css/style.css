@@ -1,0 +1,513 @@
+html {
+
+  scroll-behavior: smooth;
+
+}
+
+body {
+font-family: "Montserrat", sans-serif;
+/* padding: 8px; */
+margin: 0;
+color: #293651;
+font-size: 19px;
+
+
+
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #00a78e;
+  
+  
+}
+
+
+.backgroundTopo {
+
+    background-image: url("../images/teste.png");
+    
+    
+}
+
+
+
+.topo {
+
+    margin-left: 24%;
+    margin-right: 24%;
+
+} 
+
+
+
+
+.greentext {
+
+    color: #00a78e;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 24px;
+    
+    
+
+
+}
+
+.slogan {
+
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 24px;
+    line-height: 48px;
+
+}
+
+.enzo{
+    color: #293651;
+    font-weight: bold;
+    line-height: 34px;
+    
+    
+}
+
+.conteudo {
+
+    /* margin: 20px 500px; */
+    margin-left: 12%;
+    margin-right: 12%;
+    padding-top: 3%;
+    font-size: 18px;
+    
+
+    
+
+}
+
+.introduction {
+    color:rgb(135 127 127);
+    font-weight: 400;
+    font-size: 17.8px;
+    line-height: 23px;
+
+}
+
+.button {
+
+  background-color: #00a78e; /* Green */
+  border: none;
+  color: white;
+  padding: 13px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0.2%;
+}
+
+.button:hover, .button:active{
+
+  background-color: #00705f;
+  
+
+}
+
+.imagem {
+
+ text-align: center;
+ padding-top: 0.5%;
+
+}
+
+.profile {
+
+    max-width:540px;
+    max-height:490px;
+    width: auto;
+    height: auto;
+
+
+}
+
+.experience {
+
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-bottom: 2%;
+    padding-top: 0.2%;
+    font-family: "Montserrat", sans-serif;
+    line-height: 30px;
+    
+
+}
+
+.titleinicial {
+
+
+    color: #293651;
+    font-weight: 600;
+    line-height: 15px;
+    font-size: 42px;
+
+}
+
+div.divider{
+
+        /* text-align: left; */
+
+        /* width: 150px; */
+        margin-bottom: 2%;
+        margin-top: 2%;
+}
+
+hr.greenline {
+    border-top: 3px solid #00a78e;
+   display: inline-block;
+   width: 100px;
+    
+    
+  }
+
+  hr.segunda {
+
+    width: 16px;
+
+  }
+
+  hr.terceira{
+
+    width: 8px;
+  }
+
+.textBio {
+
+    text-align: justify;
+
+}
+
+.titleBar {
+
+    color: black;
+    font-weight: 600;
+    padding-top: 4%;
+    line-height: 10px;
+
+}
+
+.porcent1{
+
+    margin-left: 91%;
+    color: #85818e;
+    
+}
+
+
+
+#progressbar {
+    background-color: #eeeff2;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+  }
+  
+  #progressbar>div {
+    background: linear-gradient(to right, #00a78e 18%, #006666 100%);
+    width: 85%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+  }
+
+  #progressbar>.bar2 {
+    background-color: #00a78e;
+    width: 75%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+  }
+
+  #progressbar>.bar3 {
+    background-color: #00a78e;
+    width: 90%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+  }
+
+  #progressbar>.bar4 {
+    background-color: #00a78e;
+    width: 65%;
+    /* Adjust with JavaScript */
+    height: 10px;
+    border-radius: 10px;
+  }
+
+  .section_projects{
+
+    background-color: #f9f9f9;
+    height: auto;
+    text-align: center;
+
+
+  }
+
+  .titleProjects{
+
+        text-align: center;
+        padding-top: 2%;
+        margin-bottom: 2%;
+
+  }
+
+  .title_section2{
+
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 8px;
+    
+
+  }
+
+  .center_greenline2{
+
+    
+    text-align: center;
+
+  }
+
+  .greenline2{
+
+    border-top: 3px solid #00a78e;
+    width: 10%;
+    
+  
+
+  }
+
+  .align_containers{
+    height: auto;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+
+  } 
+
+
+  .containerProject {
+
+    display: inline-block;           
+    /* line-height: 62px;   */  
+    width: 400px;
+    height: 380px;
+    border: 2.5px solid #fff;
+    border-radius: 1%;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    font-size: 36px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 4px 4px #d4d4d4;
+   
+
+  }
+
+.container1{
+
+  margin-left: 3%;
+  text-align: left;
+
+}
+
+.container1:hover{
+
+  background-color: #00a78e;
+  color: #fff;
+
+}
+
+.image_web{
+
+    max-width:75px;
+    max-height:75px;
+    width: auto;
+    height: auto;
+    padding-top: 8%;
+    padding-left: 7%;
+    
+
+}
+
+.title_container1{
+
+  font-size: 25px;
+  font-weight: 600;
+  padding-left: 8%;
+  
+
+}
+
+.text_container1{
+
+  font-size: 16px;
+  line-height: 30px;
+  padding-left: 8%;
+  padding-right: 8%;
+
+}
+
+.container2{
+
+  margin-left: 7%;
+  text-align: left;
+ 
+
+
+}
+
+.container2:hover{
+
+  background-color: #00a78e;
+  color: #fff;
+
+}
+
+.container_contatos{
+
+  /* width: 1000px; */
+  height: auto;
+  border: 2.5px solid #fff;
+  border-radius: 4%;
+  /* margin-top: 3%; */
+ /*  margin-bottom: 5%; */
+  margin: 6% 24%;
+  font-size: 36px;
+  background: linear-gradient(to right, #00a78e 0%, #006666 100%);
+  box-shadow: 4px 4px 4px 4px #d4d4d4;
+
+ 
+}
+
+.title_contato {
+
+  text-align: center;
+  padding-top: 2%;
+
+}
+
+.marilia {
+
+  text-align: center;
+
+}
+
+.image_contact {
+
+  max-width:45px;
+  max-height:45px;
+  padding-right: 1%;
+  padding-top: 1%;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+
+}
+
+.title_container_contact {
+  
+  font-size: 35px;
+  font-weight: 600;
+  padding-left: 8%;
+  color: #fff;
+  margin-bottom: 1%;
+  
+
+}
+
+
+
+.padding_line {
+
+  padding-left: 8%;
+  padding-top: 2%;
+
+}
+
+.whiteline {
+
+  border-top: 3px solid #fff;
+  display: inline-block;
+  width: 100px;
+  height: 42;
+  
+
+  
+
+
+}
+
+.text_container_contact{
+
+  font-size: 16px;
+  color: #fff;
+  line-height: 30px;
+  padding-left: 8%;
+  padding-right: 10%;
+  padding-bottom: 26px;
+
+
+}
+
+.telefone_contact {
+
+  font-size: 19px;
+  font-weight: 600;
+
+
+}
+
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #333333;
+  color: white;
+}
+
+.text_footer {
+
+  font-size: 36px;
+  font-weight: 400;
+
+}
+
+
+     
